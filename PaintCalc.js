@@ -40,7 +40,7 @@ for (let x in TotalWall) {
 
 let WindowNumber = parseInt(prompt('How Many Windows Does the Room have? Please ensure no non-euclidian rooms'))
 
-for (i = 0, i < WindowNumber; i++) {
+for (i = 0, i < WindowNumber; i++;) {
   console.log(`Please enter the height of the $(i+1) Window`)
   Height = HeightFunc()
   console.log(`Please enter the width of the $(i + 1) Window`)
