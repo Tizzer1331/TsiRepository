@@ -1,0 +1,43 @@
+console.log("Hello World!");
+console.log(10*5);
+console.log(10/5);
+let x = 10;
+console.log(++x);
+x = 10;
+console.log(x+=5);
+
+const prompt = require('prompt-sync')();
+let p = prompt('What is your first number? ')
+let k = prompt (' What is your second number? ')
+p = parseInt(p);
+k = parseInt(k);
+let c = p + k
+console.log(c);
+
+let time = prompt('How much time have you got before your shift?')
+time = parseInt (time)
+if (time < 1){
+reply='Its late you do not have time to stop'
+}
+else if (time < 3){
+reply= ' you can stop for a bit maybe a local shop?'
+}
+else {
+reply= 'Youve got bags of time, grab a snack and a local shop'
+}
+console.log(reply)
+
+let pie = prompt('What kind of pie do you want?')
+switch (pie){
+case 'Cherry':
+console.log('yum cherry pie')
+break;
+case 'Apple':
+console.log('yum Apple pie')
+break;
+case 'Rhubarb':
+console.log('yum Rhubarb pie')
+break;
+default:
+console.log('Thats not a kind of pie you weirdo')
+}
