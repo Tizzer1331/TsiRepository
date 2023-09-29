@@ -1,0 +1,13 @@
+body {background-image: url('https://images.unsplash.com/photo-1578985545062-69928b1d9587?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8NHx8fGVufDB8fHx8fA%3D%3D&w=1000&q=80');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: Verdana;}
+    h5 {color:red;
+        display:inline;
+        border:magenta;
+        padding: 5 px;
+        border-style:groove;}
+    dt {font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display:inline;
+    background-color: aqua;}
